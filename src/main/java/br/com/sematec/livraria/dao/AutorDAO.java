@@ -23,7 +23,7 @@ public class AutorDAO extends DAO<Autor> {
 	}
 
 	public Autor buscaPorNome(String nome) {
-		Long i = 0l;
+		Long i = 0L;
 		boolean achou = false;
 		Autor retorno = null;
 		while (!achou && i < LISTA.size()) {

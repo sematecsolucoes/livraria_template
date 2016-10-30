@@ -1,11 +1,12 @@
 package br.com.sematec.livraria.modelo;
 
 public class Autor extends BaseEntity {
+	private static final long serialVersionUID = 1L;
 	private Long id;
 	private String nome;
 
 	public Autor() {
-		super();
+		this("");
 	}
 
 	public Autor(String nome) {
